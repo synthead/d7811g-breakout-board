@@ -1,0 +1,553 @@
+
+(session "d7811g-breakout-board.ses"
+  (base_design "d7811g-breakout-board.dsn")
+  (placement
+    (resolution um 10)
+    (component Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical
+      (place J1 1028700 -640550 front 0)
+      (place J3 1054100 -627850 front 0)
+      (place J5 1257300 -627850 front 0)
+      (place J7 1282700 -640550 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical::1
+      (place J2 977900 -640550 front 0)
+      (place J4 1003300 -627850 front 0)
+      (place J6 1206500 -627850 front 0)
+      (place J8 1231900 -640550 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version 5.1.7)
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(J1-Pad1)"
+        (wire
+          (path B.Cu 2500
+            977900 -640550
+            1028700 -640550
+          )
+        )
+      )
+      (net "Net-(J1-Pad2)"
+        (wire
+          (path B.Cu 2500
+            977900 -665950
+            1028700 -665950
+          )
+        )
+      )
+      (net "Net-(J1-Pad3)"
+        (wire
+          (path B.Cu 2500
+            977900 -691350
+            1028700 -691350
+          )
+        )
+      )
+      (net "Net-(J1-Pad4)"
+        (wire
+          (path B.Cu 2500
+            977900 -716750
+            1028700 -716750
+          )
+        )
+      )
+      (net "Net-(J1-Pad5)"
+        (wire
+          (path B.Cu 2500
+            977900 -742150
+            1028700 -742150
+          )
+        )
+      )
+      (net "Net-(J1-Pad6)"
+        (wire
+          (path B.Cu 2500
+            977900 -767550
+            1028700 -767550
+          )
+        )
+      )
+      (net "Net-(J1-Pad7)"
+        (wire
+          (path B.Cu 2500
+            977900 -792950
+            1028700 -792950
+          )
+        )
+      )
+      (net "Net-(J1-Pad8)"
+        (wire
+          (path B.Cu 2500
+            977900 -818350
+            1028700 -818350
+          )
+        )
+      )
+      (net "Net-(J1-Pad9)"
+        (wire
+          (path B.Cu 2500
+            977900 -843750
+            1028700 -843750
+          )
+        )
+      )
+      (net "Net-(J1-Pad10)"
+        (wire
+          (path B.Cu 2500
+            977900 -869150
+            1028700 -869150
+          )
+        )
+      )
+      (net "Net-(J1-Pad11)"
+        (wire
+          (path B.Cu 2500
+            977900 -894550
+            1028700 -894550
+          )
+        )
+      )
+      (net "Net-(J1-Pad12)"
+        (wire
+          (path B.Cu 2500
+            977900 -919950
+            1028700 -919950
+          )
+        )
+      )
+      (net "Net-(J1-Pad13)"
+        (wire
+          (path B.Cu 2500
+            977900 -945350
+            1028700 -945350
+          )
+        )
+      )
+      (net "Net-(J1-Pad14)"
+        (wire
+          (path B.Cu 2500
+            977900 -970750
+            1028700 -970750
+          )
+        )
+      )
+      (net "Net-(J1-Pad15)"
+        (wire
+          (path B.Cu 2500
+            977900 -996150
+            1028700 -996150
+          )
+        )
+      )
+      (net "Net-(J1-Pad16)"
+        (wire
+          (path B.Cu 2500
+            977900 -1021550
+            1028700 -1021550
+          )
+        )
+      )
+      (net "Net-(J3-Pad1)"
+        (wire
+          (path B.Cu 2500
+            1003300 -627850
+            1054100 -627850
+          )
+        )
+      )
+      (net "Net-(J3-Pad2)"
+        (wire
+          (path B.Cu 2500
+            1003300 -653250
+            1054100 -653250
+          )
+        )
+      )
+      (net "Net-(J3-Pad3)"
+        (wire
+          (path B.Cu 2500
+            1003300 -678650
+            1054100 -678650
+          )
+        )
+      )
+      (net "Net-(J3-Pad4)"
+        (wire
+          (path B.Cu 2500
+            1003300 -704050
+            1054100 -704050
+          )
+        )
+      )
+      (net "Net-(J3-Pad5)"
+        (wire
+          (path B.Cu 2500
+            1003300 -729450
+            1054100 -729450
+          )
+        )
+      )
+      (net "Net-(J3-Pad6)"
+        (wire
+          (path B.Cu 2500
+            1003300 -754850
+            1054100 -754850
+          )
+        )
+      )
+      (net "Net-(J3-Pad7)"
+        (wire
+          (path B.Cu 2500
+            1003300 -780250
+            1054100 -780250
+          )
+        )
+      )
+      (net "Net-(J3-Pad8)"
+        (wire
+          (path B.Cu 2500
+            1003300 -805650
+            1054100 -805650
+          )
+        )
+      )
+      (net "Net-(J3-Pad9)"
+        (wire
+          (path B.Cu 2500
+            1003300 -831050
+            1054100 -831050
+          )
+        )
+      )
+      (net "Net-(J3-Pad10)"
+        (wire
+          (path B.Cu 2500
+            1003300 -856450
+            1054100 -856450
+          )
+        )
+      )
+      (net "Net-(J3-Pad11)"
+        (wire
+          (path B.Cu 2500
+            1003300 -881850
+            1054100 -881850
+          )
+        )
+      )
+      (net "Net-(J3-Pad12)"
+        (wire
+          (path B.Cu 2500
+            1003300 -907250
+            1054100 -907250
+          )
+        )
+      )
+      (net "Net-(J3-Pad13)"
+        (wire
+          (path B.Cu 2500
+            1003300 -932650
+            1054100 -932650
+          )
+        )
+      )
+      (net "Net-(J3-Pad14)"
+        (wire
+          (path B.Cu 2500
+            1003300 -958050
+            1054100 -958050
+          )
+        )
+      )
+      (net "Net-(J3-Pad15)"
+        (wire
+          (path B.Cu 2500
+            1003300 -983450
+            1054100 -983450
+          )
+        )
+      )
+      (net "Net-(J3-Pad16)"
+        (wire
+          (path B.Cu 2500
+            1003300 -1008850
+            1054100 -1008850
+          )
+        )
+      )
+      (net "Net-(J5-Pad1)"
+        (wire
+          (path B.Cu 2500
+            1206500 -627850
+            1257300 -627850
+          )
+        )
+      )
+      (net "Net-(J5-Pad2)"
+        (wire
+          (path B.Cu 2500
+            1206500 -653250
+            1257300 -653250
+          )
+        )
+      )
+      (net "Net-(J5-Pad3)"
+        (wire
+          (path B.Cu 2500
+            1206500 -678650
+            1257300 -678650
+          )
+        )
+      )
+      (net "Net-(J5-Pad4)"
+        (wire
+          (path B.Cu 2500
+            1206500 -704050
+            1257300 -704050
+          )
+        )
+      )
+      (net "Net-(J5-Pad5)"
+        (wire
+          (path B.Cu 2500
+            1206500 -729450
+            1257300 -729450
+          )
+        )
+      )
+      (net "Net-(J5-Pad6)"
+        (wire
+          (path B.Cu 2500
+            1206500 -754850
+            1257300 -754850
+          )
+        )
+      )
+      (net "Net-(J5-Pad7)"
+        (wire
+          (path B.Cu 2500
+            1206500 -780250
+            1257300 -780250
+          )
+        )
+      )
+      (net "Net-(J5-Pad8)"
+        (wire
+          (path B.Cu 2500
+            1206500 -805650
+            1257300 -805650
+          )
+        )
+      )
+      (net "Net-(J5-Pad9)"
+        (wire
+          (path B.Cu 2500
+            1206500 -831050
+            1257300 -831050
+          )
+        )
+      )
+      (net "Net-(J5-Pad10)"
+        (wire
+          (path B.Cu 2500
+            1206500 -856450
+            1257300 -856450
+          )
+        )
+      )
+      (net "Net-(J5-Pad11)"
+        (wire
+          (path B.Cu 2500
+            1206500 -881850
+            1257300 -881850
+          )
+        )
+      )
+      (net "Net-(J5-Pad12)"
+        (wire
+          (path B.Cu 2500
+            1206500 -907250
+            1257300 -907250
+          )
+        )
+      )
+      (net "Net-(J5-Pad13)"
+        (wire
+          (path B.Cu 2500
+            1206500 -932650
+            1257300 -932650
+          )
+        )
+      )
+      (net "Net-(J5-Pad14)"
+        (wire
+          (path B.Cu 2500
+            1206500 -958050
+            1257300 -958050
+          )
+        )
+      )
+      (net "Net-(J5-Pad15)"
+        (wire
+          (path B.Cu 2500
+            1206500 -983450
+            1257300 -983450
+          )
+        )
+      )
+      (net "Net-(J5-Pad16)"
+        (wire
+          (path B.Cu 2500
+            1206500 -1008850
+            1257300 -1008850
+          )
+        )
+      )
+      (net "Net-(J7-Pad1)"
+        (wire
+          (path B.Cu 2500
+            1231900 -640550
+            1282700 -640550
+          )
+        )
+      )
+      (net "Net-(J7-Pad2)"
+        (wire
+          (path B.Cu 2500
+            1231900 -665950
+            1282700 -665950
+          )
+        )
+      )
+      (net "Net-(J7-Pad3)"
+        (wire
+          (path B.Cu 2500
+            1231900 -691350
+            1282700 -691350
+          )
+        )
+      )
+      (net "Net-(J7-Pad4)"
+        (wire
+          (path B.Cu 2500
+            1231900 -716750
+            1282700 -716750
+          )
+        )
+      )
+      (net "Net-(J7-Pad5)"
+        (wire
+          (path B.Cu 2500
+            1231900 -742150
+            1282700 -742150
+          )
+        )
+      )
+      (net "Net-(J7-Pad6)"
+        (wire
+          (path B.Cu 2500
+            1231900 -767550
+            1282700 -767550
+          )
+        )
+      )
+      (net "Net-(J7-Pad7)"
+        (wire
+          (path B.Cu 2500
+            1231900 -792950
+            1282700 -792950
+          )
+        )
+      )
+      (net "Net-(J7-Pad8)"
+        (wire
+          (path B.Cu 2500
+            1231900 -818350
+            1282700 -818350
+          )
+        )
+      )
+      (net "Net-(J7-Pad9)"
+        (wire
+          (path B.Cu 2500
+            1231900 -843750
+            1282700 -843750
+          )
+        )
+      )
+      (net "Net-(J7-Pad10)"
+        (wire
+          (path B.Cu 2500
+            1231900 -869150
+            1282700 -869150
+          )
+        )
+      )
+      (net "Net-(J7-Pad11)"
+        (wire
+          (path B.Cu 2500
+            1231900 -894550
+            1282700 -894550
+          )
+        )
+      )
+      (net "Net-(J7-Pad12)"
+        (wire
+          (path B.Cu 2500
+            1231900 -919950
+            1282700 -919950
+          )
+        )
+      )
+      (net "Net-(J7-Pad13)"
+        (wire
+          (path B.Cu 2500
+            1231900 -945350
+            1282700 -945350
+          )
+        )
+      )
+      (net "Net-(J7-Pad14)"
+        (wire
+          (path B.Cu 2500
+            1231900 -970750
+            1282700 -970750
+          )
+        )
+      )
+      (net "Net-(J7-Pad15)"
+        (wire
+          (path B.Cu 2500
+            1231900 -996150
+            1282700 -996150
+          )
+        )
+      )
+      (net "Net-(J7-Pad16)"
+        (wire
+          (path B.Cu 2500
+            1231900 -1021550
+            1282700 -1021550
+          )
+        )
+      )
+    )
+  )
+)
